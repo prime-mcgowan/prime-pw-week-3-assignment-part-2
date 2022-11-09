@@ -26,7 +26,7 @@ for (let i=0; i<6; i++) {
 console.log('count from 3 to 5');
 
 //You need to change the variable (it also looks like this piece might be called the initialization) from let i=0 to let i=3
-for(let i=3; i<6; i++) {
+for (let i=3; i<6; i++) {
   console.log(i);
 }
 
@@ -35,24 +35,16 @@ for(let i=3; i<6; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 
-for(let i=2; i<11; i+2) {
-  console.log (i);
+//You need to change the iteration (repeated block of code)...instead of increasing by one I need it to increase by 2 to keep the numbers even
+for (let i=2; i<11; i+=2) {
+  console.log(i);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-
+for (let i=5; i>=0; i--) {
+  console.log(i);
+} 
 
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
