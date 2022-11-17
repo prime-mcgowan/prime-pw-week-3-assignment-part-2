@@ -54,9 +54,17 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 console.log('Some stars:');
 
 stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
+
+/////*****FIXED CODE FOR RESUBMISSION*****/////
+for (officialName of stars) {
+  console.log(officialName);
+}
+
+/*
 for ( let i = 0; i<stars.length; i++) {
   console.log('for of loop', stars[i]);
 }
+*/
 
 
 // 3. While loops  
